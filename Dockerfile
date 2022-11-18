@@ -85,6 +85,3 @@ RUN set -eux ; \
 
 WORKDIR /app
 
-ENTRYPOINT ["/docker-entrypoint.sh"]
-
-CMD ["composer"]
