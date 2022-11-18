@@ -37,6 +37,16 @@ $config = [
     */
 ];
 
+return [
+	...
+    'controllerMap' => [
+        'heroku' => [
+            'class' => 'purrweb\heroku\HerokuGeneratorController',
+        ],
+    ],
+	...
+];
+
 if (YII_ENV_DEV) {
     // configuration adjustments for 'dev' environment
     $config['bootstrap'][] = 'gii';
