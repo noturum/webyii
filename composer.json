@@ -20,7 +20,7 @@
         "yiisoft/yii2-symfonymailer": "~2.0.3"
     },
     "require-dev": {
-        "purrweb/yii2-heroku": "*"
+        "purrweb/yii2-heroku": "*",
         "yiisoft/yii2-debug": "~2.1.0",
         "yiisoft/yii2-gii": "~2.2.0",
         "yiisoft/yii2-faker": "~2.0.0",
