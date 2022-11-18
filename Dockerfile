@@ -82,7 +82,6 @@ RUN set -eux ; \
   rm -f /tmp/installer.php ; \
   find /tmp -type d -exec chmod -v 1777 {} +
 
-COPY docker-entrypoint.sh /docker-entrypoint.sh
 
 WORKDIR /app
 
